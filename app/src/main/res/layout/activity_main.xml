@@ -38,19 +38,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="14dp"
-            android:hint="@string/st_name" />
+            android:hint="@string/st_name"
+            android:scrollbars="vertical"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="14dp"
-            android:hint="@string/st_lastname"/>
+            android:hint="@string/st_lastname"
+            android:scrollbars="vertical"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/st_creditcard"
             android:padding="14dp"
-            android:hint="@string/st_creditcard" />
+            android:scrollbars="vertical"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -61,19 +64,22 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/st_month"
-                android:padding="14dp" />
+                android:padding="14dp"
+                android:scrollbars="vertical"/>
 
             <EditText
                 android:layout_width="135dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/st_year"
-                android:padding="14dp" />
+                android:padding="14dp"
+                android:scrollbars="vertical"/>
 
             <EditText
                 android:layout_width="154dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/st_cod"
-                android:padding="14dp" />
+                android:padding="14dp"
+                android:scrollbars="vertical"/>
 
         </LinearLayout>
 
@@ -91,8 +97,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="14dp"
-                android:hint="@string/st_streetnumber" />
+                android:hint="@string/st_streetnumber"
+                android:padding="14dp" />
 
             <EditText
                 android:layout_width="match_parent"
